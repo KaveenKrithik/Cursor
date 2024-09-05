@@ -1,0 +1,9 @@
+[build]
+  # Define the directory where your build output is stored
+  publish = "build"  # or "dist", depending on your project structure
+  command = "npm run build"  # Adjust based on your build tool (e.g., yarn, npm)
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
